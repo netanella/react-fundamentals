@@ -32,9 +32,9 @@
       {
         className: 'container',
       },
-      'Hello',
+      React.createElement('span', {children: 'Hello'}),
       ' ',
-      'World',
+      React.createElement('span', {children: 'World'}),
     )
 
     ReactDOM.createRoot(rootElement).render(element)
